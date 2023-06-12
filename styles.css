@@ -1,0 +1,30 @@
+* {
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: Helvetica, sans-serif;
+}
+
+.row{
+    display: flex;
+    height: 100vh;
+}
+.sl{
+    width: 10%;
+    background-color: aquamarine;
+}
+.s8{
+    width: 80%;
+    background-color: blanchedalmond;
+}
+@media only screen and (wax-width:768px){
+    .row{
+        display: block;
+    }
+    [class*="s-1"]{
+        width: 100%;
+    }
+    [class*="s-8"]{
+        width: 100%;
+    }
+}

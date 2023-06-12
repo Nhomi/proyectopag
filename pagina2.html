@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE- edge">
+    <meta name="viewport" content="width=device.width, initial-scale=1.0">
+    <title>Nanotecnologia</title>
+</head>
+<style>
+    body {margin:0;}
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:lightcoral;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color:lightgoldenrodyellow;
+    }
+    
+    .active {
+      background-color:lightsalmon;
+    }
+    </style>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="imagenes.html">Imagenes</a></li>
+        <li><a href="creditos.html">Creditos</a></li>
+    </ul>
+
+<div style="padding:20px;margin-top:30px;background-color:blanchedalmond;">    
+    <table bgcolor="grey" style="width: 100%;" border="6ps">
+        <tr><td><li><a href="#quees">Que es?</a><br></li></td></tr>
+        <tr><td><li><a href="#sirve">Para que sirve?</a><br></li></td></tr>
+        <tr><td><li><a href="#enf">Enfermedades que puede curar</a><br></li></td></tr>
+        <tr><td><li><a href="#vid">Video Relacionado</a><br></li></td></tr>
+        <tr><td><li><a href="#aud">Audio Relacionado</a><br></li></td></tr>
+        <tr><td><li><a href="#pi">Pregunta importante</a><br></li></td></tr>
+    </table>
+    <a name="quees"></a>
+    <br> <br>
+    <h1>¿Que es la Nanotacnologia?</h1>
+    <p>
+        La nanotecnología es la manipulación de la materia a una escala casi atómica para <br>
+        crear nuevas estructuras, materiales y aparatos. Esta tecnología promete avances <br>
+        científicos en muchos sectores como la medicina, productos para el consumidor, <br>
+        energía, materiales y fabricación, para tener una idea de lo que estamos hablando,<br> 
+        la medida nano equivale a 70 mil veces menos que la espesura de un cabello.<br>
+        <svg width="200" height="250" viewBox="0 0 250 250">
+            <defs>
+             <radialGradient id="degradadoRadial5">
+              <stop offset="50%" stop-color="#fff"></stop>
+              <stop offset="100%" stop-color="#000"></stop>
+             </radialGradient>
+             <mask id="maskCirculo5">
+              <circle cx="125" cy="125" r="100" fill="url(#degradadoRadial5)"></circle>
+              <circle cx="125" cy="125" r="100" fill="url(#degradadoRadial5)"></circle>
+              <circle cx="125" cy="125" r="100" fill="url(#degradadoRadial5)"></circle>
+              <circle cx="125" cy="125" r="100" fill="url(#degradadoRadial5)"></circle>
+    
+              
+             </mask>
+            </defs>
+           <image href="nan1.jpg" height="240" width="250" style="mask: url(#maskCirculo5);"></image>
+           </svg>
+        <br>
+        <br> <br> <br> <br> <br>
+    </p>
+
+    <a name="sirve"></a>
+    <br> <br>
+    <h1>¿Para que nos sirve la Nanotacnologia?</h1>
+    <p>
+        Nos sirve: posibilita el desarrollo de tejidos inteligentes que ni se manchen<br> 
+        ni se arruguen, así como de materiales más resistentes, ligeros y duraderos para <br>
+        fabricar cascos de moto o equipamiento deportivo.<br>
+        <h4>Mas informacion</h4>
+        <a href = "https://www.aetsa.org/download/publicaciones/antiguas/AETSA_2007-02_F2_Nanomedicina.pdf">
+            <img src="arrow.png" width=“90” title="next page">
+        <br>
+        <br> <br> <br> <br> <br>
+    </p>
+
+    <a name="enf"></a>
+    <br> <br>
+    <h1 id="mover">¿Qué enfermedad se puede curar con la nanotecnología?</h1>
+    <p>
+        Hoy en día, los nanomateriales se utilizan mundialmente para mejorar los tratamientos <br>
+        y la vida de los pacientes que sufren diferentes enfermedades incluyendo cáncer <br>
+        de ovario y de seno, afecciones renales, infecciones microbianas, colesterol elevado, <br>
+        síntomas menopáusicos, esclerosis múltiple, dolor crónico y asma<br>
+        <a href="animacion.html"><img align="center" src="nan2.jpg"></a>
+        <br>
+        <br> <br> <br> <br> <br>
+    </p>
+    <ul id="output">
+    </ul>
+
+    <a name="vid"></a>
+    <br> <br>
+    <h1>Video Relacionado</h1>
+    <video controls>
+        <source src="videoplayback.mp4" type="video/mp4">
+        Su navegador no soporta videos HTML5
+    </video>
+    
+    <a name="aud"></a>
+    <br> <br>
+    <h1>Audio Relacionado</h1>
+    <audio controls>
+        <source src="y2mate.com - Nanotecnología y la Medicina.mp3" type="audio/mp3">
+        Su navegador no soporta audios HTML5
+    </audio>
+
+    <a name="pi"></a>
+    <br> <br>
+    <form action="pagina2.html" method="post">
+        <p>¿Esta pagina le proporciono la Informacion que buscaba? <input type="text" name="resp" /></p>
+        <p><input type="submit" /></p>
+       </form>
+</div>
+</div>
+</body>
+</html>
